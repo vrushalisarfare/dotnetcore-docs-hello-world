@@ -1,6 +1,6 @@
-﻿@page
+@page
 @model IndexModel
-@{    
+@{
     ViewData["Title"] = "Home page";
 }
 
@@ -10,3 +10,34 @@
     <hr />
     <div>Host operating system: @Model.OSVersion</div>
 </div>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Gallery</h2>
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://placekitten.com/300/200" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Cute kitten 1</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://placekitten.com/301/200" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Cute kitten 2</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="https://placekitten.com/302/200" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Cute kitten 3</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
